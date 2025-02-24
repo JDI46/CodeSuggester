@@ -16,6 +16,20 @@ class GetWorkout:
     def difficulty_check():
         pass
 
+class Exercise:
+    def __init__():
+        pass
+
+class UserProfile:
+    pass
+
+class ProgressTracker:
+    pass
+
+class Suggestions:
+    pass
+
+
 
 class WeeklyResults:
     pass
