@@ -9,15 +9,18 @@
 #         pass
 #
 class Exercise:
-    def __init__(self, exercise, sets, reps):
+    def __init__(self, date, exercise, sets, reps):
+        self.date = date
         self.excercise = exercise
         self.sets = sets
         self.reps = reps
         self.storage = {}
     
     def enter_workout(self):
-        f"Workout: {self.exercise}; Sets: {self.sets}; Reps: {self.reps}"
-        return self.storage[self.exercise] = [self.sets, self.reps]
+        workout = f"Workout: {self.exercise}; Sets: {self.sets}; Reps: {self.reps}"
+        return self.storage[self.date] == workout 
+
+    def find_workouts
         
 
 # class UserProfile:
