@@ -1,8 +1,4 @@
 #parent class to store workouts
-# class WorkoutStorage:
-# #use hash set for WorkoutStorage
-#     pass
-
 #
 #
 #
@@ -20,10 +16,10 @@ class Exercise:
     def __init__(self, exercise, reps):
         self.excercise = exercise
         self.reps = reps
-        self.storage = []
+        self.storage = {}
     
     def enter_workout(self):
-        workout
+        
 
 # class UserProfile:
 #     pass
