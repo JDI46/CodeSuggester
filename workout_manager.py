@@ -10,7 +10,7 @@
 #
 class Exercise:
     def __init__(self, date, exercise, sets, reps):
-        self.date = date
+        self.day = day
         self.excercise = exercise
         self.sets = sets
         self.reps = reps
@@ -18,10 +18,12 @@ class Exercise:
     
     def enter_workout(self):
         workout = f"Workout: {self.exercise}; Sets: {self.sets}; Reps: {self.reps}"
-        return self.storage[self.date] == workout 
+        return self.storage[self.day] == workout 
 
-    def find_workouts
-        
+    def find_workouts(self):
+    #looks for key and returns the string
+    find_key = self.storage.get(self.day)
+    return find_key
 
 # class UserProfile:
 #     pass
