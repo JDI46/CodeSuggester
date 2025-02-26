@@ -8,8 +8,8 @@
 #     def difficulty_check():
 #         pass
 #
-class Exercise:
-    def __init__(self, date, exercise, sets, reps):
+class Suggest:
+    def __init__(self, code_block, goal):
         self.day = day
         self.excercise = exercise
         self.sets = sets

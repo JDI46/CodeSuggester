@@ -1,6 +1,6 @@
-class WorkoutStorage:
-    
-    @staticmethod
-    def storage():
+class HashMap:
+
+    def __init__(self):
         pass
+    
 
