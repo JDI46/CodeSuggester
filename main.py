@@ -6,8 +6,9 @@ class Prompt:
         self.goal = goal
     
     def enter_prompt(self):
-        pass
+        return self.prompt == ""
 
     def desired_outcome(self):
         pass
+
 
